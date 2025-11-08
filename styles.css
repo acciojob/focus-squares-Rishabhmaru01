@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .focus-sq {
+      width: 100px;
+      height: 100px;
+      background-color: #E6E6FA; /* Lavender */
+      transition: background-color 0.3s ease;
+      border: 2px solid #ccc;
+    }
